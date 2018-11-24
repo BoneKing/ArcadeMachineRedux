@@ -1,0 +1,13 @@
+Controls setup:
+2 pedles each with 3 wires + GND data
+2 speakers with + - (should be like Piezo speakers)
+1 shift stick + - (should be just a switch that completes a circuit)
+wheel + - data? (looks like it might just be a pot)
+
+Monitor:
+serial accross 5 wires plus + and GND
+
+Requirements:
+software must interperete input from machine via GPIO on RaspPiZero 
+must comunicate to an emoulator the controls 
+Must output to serial that is understandable from the screen 
